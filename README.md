@@ -11,7 +11,7 @@ Static, client-side solution architecture tool grounded in five security and acc
 
 ## Features
 
-Six Power Platform reference patterns, editable nodes, added/removed flows, view filters, documentation prompts, JSON import/export, SVG export. Samples are illustrative and do not certify an implementation.
+Seven Power Platform reference patterns, editable nodes, added/removed flows, view filters, documentation prompts, JSON import/export, SVG and PlantUML export. Samples are illustrative and do not certify an implementation.
 
 ## Source and generation
 
@@ -28,3 +28,6 @@ Target repository: https://github.com/mightora/security-plane-builder.mightora.i
 ## Check
 
 Run `python test_build.py` after `python build.py`. CodeQL workflow is included for repository scanning after publishing.
+## Detailed fictional solution pattern
+
+The Community support portal illustrates a fictional end-to-end solution: workforce and external identities, public guidance, Power Pages, a model-driven app, Dataverse, cloud flows, protected file storage, SharePoint, email, and a generic external API. All names and topology are illustrative, not from a client implementation. Workload nodes can be assigned to editable groups for nested workload-area diagrams. Flow types (identity/data/management) can be selected explicitly, and the whole architecture can be exported to PlantUML, SVG and JSON. Exported PlantUML is intended as an editable starting point.

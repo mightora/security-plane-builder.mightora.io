@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python build.py && python test_build.py
+      - run: python build.py && python test_build.py && node --check src.js
       - uses: actions/upload-artifact@v4
         with:
           name: offline-edition
